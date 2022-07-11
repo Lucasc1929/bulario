@@ -1,15 +1,13 @@
 {
   "files": {
-    "main.css": "/bulario/static/css/main.c22fdd18.css",
-    "main.js": "/bulario/static/js/main.98bcd70d.js",
-    "static/js/119.bf7808f3.chunk.js": "/bulario/static/js/119.bf7808f3.chunk.js",
+    "main.css": "/bulario/static/css/main.0ed7c5dc.css",
+    "main.js": "/bulario/static/js/main.28496368.js",
     "index.html": "/bulario/index.html",
-    "main.c22fdd18.css.map": "/bulario/static/css/main.c22fdd18.css.map",
-    "main.98bcd70d.js.map": "/bulario/static/js/main.98bcd70d.js.map",
-    "119.bf7808f3.chunk.js.map": "/bulario/static/js/119.bf7808f3.chunk.js.map"
+    "main.0ed7c5dc.css.map": "/bulario/static/css/main.0ed7c5dc.css.map",
+    "main.28496368.js.map": "/bulario/static/js/main.28496368.js.map"
   },
   "entrypoints": [
-    "static/css/main.c22fdd18.css",
-    "static/js/main.98bcd70d.js"
+    "static/css/main.0ed7c5dc.css",
+    "static/js/main.28496368.js"
   ]
 }
