@@ -1,0 +1,18 @@
+
+  h1{
+    color: brown;
+    position: absolute;
+    left: 50%;
+    font-size: 50px;
+    transform: translate(-50%);
+    text-align: center;
+  }
+
+
+@media (min-width: 360px) and (max-width: 720px) {
+  h1{
+    left: 50%;
+    transform: translate(-50%);
+    font-size: 35px;
+  }
+}

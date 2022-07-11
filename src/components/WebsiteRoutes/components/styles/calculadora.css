@@ -1,0 +1,56 @@
+.calculadora{
+    position: absolute;
+    left: 50%;
+    top: 30%;
+    transform: translate(-50%);
+    border: 3px solid white;
+    background-color: white;
+    box-shadow: 4px 4px 26px rgba(0, 0, 0, 0.295);
+    padding: 30px;
+    height: 30%;
+    border-radius: 10px;
+    z-index: 2;
+}
+
+label{
+    font-size: 24px;
+}
+
+input{
+    width: 80%;
+    height: 20px;
+    font-size: 20px;
+}
+
+.checkvalue-btn{
+    background-color: rgb(253, 107, 131);
+    position: absolute;
+    top: 100%;
+    border-radius: 5px;
+    left: 50%;
+    transform: translate(-50%);
+    width: 70%;
+}
+
+/*
+
+keyframes at width 1005 and height 800
+
+*/
+
+@media (min-width: 360px) and (max-width: 720px) {
+
+    input{
+        width: 90%;
+    }
+    .calculadora{
+        width: 63%;
+        top: 20%;
+        left: 50%;
+        transform: translate(-50%);
+        height: 40%;
+    }
+    .checkvalue-btn{
+        margin-top: -30px;
+    }
+}

@@ -1,0 +1,112 @@
+p{
+    display: inline;
+}
+
+.search-area{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.input-search{
+    position: absolute;
+    outline: none;
+    border-radius: 10px;
+    border: none;
+    padding: 7px;
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+    width:50%;
+    left: 50%;
+    top: 20%;
+    transform: translate(-50%);
+}
+
+.bulario-title{
+    position: absolute;
+    top: 0%;
+}
+
+button{
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    height: 30px;
+    background-color: transparent;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 30px;
+    top: 20%;
+    right: 20%;
+}
+
+.productName, .productData{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.listed-medicines-labs{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 26px;
+    position: relative;
+    left: 50%;
+    top: 30%;
+    transform: translate(-50%);
+    width: 80%;
+    margin-top: 20%;
+    margin-bottom: 10px;
+    padding-top: 10px;
+}
+
+.icon{
+    font-size: 30px;
+    position: absolute;
+    cursor: pointer;
+    margin-right: 10px;
+    font-size: 30px;
+}
+
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    display: inline;
+}
+
+.paciente{
+    right: 10px;
+}
+
+.download{
+    right: 50px;
+}
+
+@media (min-width: 360px) and (max-width:1100px) {
+
+    .listed-medicines-labs{
+        position: absolute;
+        top: 20%;
+        font-size: 25px;
+        left: -50%;
+    }
+
+    button{
+        display: inline;
+        font-family: Arial, Helvetica, sans-serif;
+        position: absolute;
+        height: 24px;
+        background-color: transparent;
+        color: white;
+        border: none;
+        cursor: pointer;
+        height: 30px;
+        top: 20%;
+        right: 0%;
+    }
+
+    .icon{
+        position: absolute;
+        left: 0;
+    }
+
+    .input-search{
+        width: 70%;
+        left: 50%;
+    }
+
+}

@@ -1,0 +1,27 @@
+
+
+h1{
+    position: absolute;
+    text-decoration: underline;
+}
+
+.history-medicine{
+    width: 80%;
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    transform: translate(-50%);
+    text-align: justify;
+    border: 1px solid white;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+h2{
+    margin-top: 20px;
+    text-align: center;
+}
+
+p{
+    display: block;
+}

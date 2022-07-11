@@ -1,0 +1,216 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+
+*{
+  font-family: Lobster;
+  z-index: 3;
+}
+
+button, i{
+  border: none;
+  outline: none;
+  
+}
+
+.website-title{
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+}
+
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: rgba(255, 155, 88, 0.733);
+}
+
+.PageNotFound>img{
+  position: relative;
+  width: 300px;
+  height: 300px;
+  left: 50%;
+  transform: translate(-150px);
+}
+
+.about-description>p{
+  font-size: 24px;
+  padding: 0px 30px;
+  text-align: justify;
+}
+
+.about-description>h1{
+  font-size: 30px;
+  padding-left: 10px;
+}
+
+header{
+  position: relative;
+  background-color: transparent;
+  padding: 30px 0px 30px 0px;
+}
+
+span>a{
+  text-decoration: none;
+  text-transform: uppercase;
+  color: black;
+  font-size: 30px;
+  font-weight: 700;
+  margin-left: 30px;
+}
+
+header>span{
+  position: absolute;
+  right: 50%;
+  transform: translate(50%);
+  width: 100%;
+  text-align: center;
+}
+
+.redirect-upload{
+  font-size: 26px;
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%);
+  background-color: skyblue;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+a.bulario{
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+  margin-top: 20%;
+  font-size: 40px;
+  color: red;
+  font-weight: 800;
+  text-decoration: none;
+}
+
+.upload-area{
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.input-file{
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+  margin-top: 50px;
+  width: 50%;
+  font-size: 20px;
+  height: 10%;
+  background-color: gray;
+  border: 3px dashed black;
+}
+
+header{
+  display: none;
+}
+
+.PDFreader{
+  margin: auto;
+  width: 80%;
+}
+
+.range-input{
+  transform: rotate(90deg);
+  position: fixed;
+  right: 0%;
+  top: 50%;
+  width: 20%;
+}
+
+iframe{
+  background-color: gray;
+}
+
+.display-none{
+  width: 0%;
+  height: 0%;
+  display: none;
+  z-index: 1;
+  left: -225%;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: whitesmoke;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+  height: 10%;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+.upload-input{
+  background-color: #121212;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+  width: 50%;
+  height: 30%;
+  border-radius: 10px;
+}
+
+.listen-button{
+  position: absolute;
+  background-color: limegreen;
+  border: none;
+  border-radius: 10px;
+  font-size: 30px;
+  color: white;
+  cursor: pointer;
+  left: 50%;
+  transform: translate(-50%);
+  margin-bottom: 30px;
+  border: none;
+  outline: none;
+  top: 1%;
+}
+
+@media (min-width:360px) and (max-width: 720px) {
+
+  .upload-input{
+    background-color: #12121246;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    width: 80%;
+    height: 20%;
+    top: 10%;
+    
+  }
+
+  .bula-paragraph{
+    width: 90%;
+    margin: auto;
+    padding: 5px;
+    overflow: hidden;
+    font-weight: 600;
+  }
+
+  .range-input{
+    position: fixed;
+    right: 0px;
+    top: 50%;
+
+  }
+
+}
