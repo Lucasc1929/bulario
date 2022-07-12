@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/bulario/static/css/main.0ed7c5dc.css",
+    "main.css": "/bulario/static/css/main.5aee8279.css",
     "main.js": "/bulario/static/js/main.28496368.js",
     "index.html": "/bulario/index.html",
-    "main.0ed7c5dc.css.map": "/bulario/static/css/main.0ed7c5dc.css.map",
+    "main.5aee8279.css.map": "/bulario/static/css/main.5aee8279.css.map",
     "main.28496368.js.map": "/bulario/static/js/main.28496368.js.map"
   },
   "entrypoints": [
-    "static/css/main.0ed7c5dc.css",
+    "static/css/main.5aee8279.css",
     "static/js/main.28496368.js"
   ]
 }
